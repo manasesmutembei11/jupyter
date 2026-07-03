@@ -54,26 +54,4 @@ Top-level files and a short description:
      python budget_app.py
      python tree_traversal.py
      ```
-   - Most scripts print small demos or examples when executed.
 
-Notes:
-- Notebooks may require additional data-science packages (numpy, pandas, matplotlib) depending on the notebook. If a notebook fails due to missing packages, install them with pip, for example:
-  ```
-  python -m pip install numpy pandas matplotlib
-  ```
-
-## Suggestions for next improvements
-- Add a top-level `requirements.txt` or environment.yml with commonly-used packages for the notebooks.
-- Add a CONTRIBUTING.md with instructions for how you (or others) can add new notebooks or exercises.
-- Add small unit tests for key scripts (for example, tests for arithmetic_formatter and budget_app).
-
-## Contributing
-Feel free to open issues or add pull requests. This repository is intended as a learning space — tidy code, docstrings, and small tests are welcome.
-
-## License
-No license file included. If you want a license, consider adding an OSI-approved license (e.g., MIT) in a `LICENSE` file.
-
-## Try asking
-- Can you add a `requirements.txt` listing packages used by the notebooks (if any) and a short pip install command?
-- Would you like me to create unit tests for `arithmetic_formatter.py` and `budget_app.py` using pytest?
-- Should I add a CONTRIBUTING.md and a basic LICENSE (MIT) to this repo and commit them for you?
